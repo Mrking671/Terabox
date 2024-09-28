@@ -15,7 +15,7 @@ aria2 = aria2p.API(
     )
 )
 async def download_video(url, reply_msg, user_mention, user_id):
-    response = requests.get(f"https://teraboxapi2.darkhacker7301.workers.dev/?url={url}")
+    response = requests.get(f"https://mavimods.serv00.net/Mavitera?url={url}")
     response.raise_for_status()
     data = response.json()
 
